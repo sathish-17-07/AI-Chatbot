@@ -1,0 +1,98 @@
+{"intents": [
+    {"tag" : "confused",
+    "patterns" : [""],
+    "responses" : ["I didn't get you, could you please come again!","I'm sorry, I didn't understand!"]
+    },
+    {"tag" : "greetings",
+    "patterns" : ["hello","hi","hey"],
+    "responses" : ["Hello!, How may I help you?","Hey!, How can I help you?","Hi, What can I do for you?"]
+    },
+    {"tag" : "greetings2",
+    "patterns" : ["how you doing?","how is it going?","how are you?"],
+    "responses" : ["good","fine","I'm good","doing great"]
+    },
+    {"tag" : "goodbye",
+    "patterns" : ["see you later","goodbye","have a good day","bye"],
+    "responses" : ["see you later","GoodBye!","see you again","have a nice day","bye bye"]
+    },
+    {"tag" : "Weather",
+    "patterns" : ["what's the weather today","how's the weather today","how's the day look","weather"],
+    "responses" : ["Sunny day!","It's rainy today","thunderstorms","snowy","foggy, Please drive slow!!","Hotter than yesterday!"]
+    },
+    {"tag" : "Availability",
+    "patterns" : ["do you have any rooms available","any vacancies","any left","any openings"],
+    "responses" : ["yes, we do","yes, we have plenty of rooms available today","we have few rooms available today","Yes, we do have a couple of rooms available, Please hurry up!!!"]
+    },
+    {"tag" : "TypesofRooms",
+    "patterns" : ["what type of rooms do you have?","what sizes?","type of beds"],
+    "responses" : ["King size single bed \nQueen size single bed \nDouble beds"]
+    },
+    {"tag" : "Alltogether",
+    "patterns" : ["how much do they cost?","each costs?","what are the rates?"],
+    "responses" : ["King size - $100/day \nQueen size - $80/day \nDouble size - $120/day"]
+    },
+    {"tag" : "Kingsize",
+    "patterns" : ["How much is king size?"],
+    "responses" : ["$100/Day for a King size"]
+    },
+    {"tag" : "Queensize",
+    "patterns" : ["How much is queen bed?","cheapest room?"],
+    "responses" : ["$80/Day for a Queen size"]
+    },
+    {"tag" : "Doublesize",
+    "patterns" : ["How much is double bed?","costly room?","4 people"],
+    "responses" : ["$120/Day","$120/Day Double size"]
+    },
+    {"tag" : "weekly",
+    "patterns" : ["any weeklies?","weekly rooms"],
+    "responses" : ["Yes, we do weeklies","Yes, we have weekly rooms"]
+    },
+    {"tag" : "wifi",
+    "patterns" : ["do you guys have wifi?","wifi","internet connection","provide internet facilities"],
+    "responses" : ["Yes, we do have wifi here","Yes, we have internet facility"]
+    },
+    {"tag" : "television",
+    "patterns" : ["do you guys have t.v?","t.v","television"],
+    "responses" : ["Yes, we do have television here","Yes, we have T.V"]
+    },
+    {"tag" : "checkout",
+    "patterns" : ["what's your checkout time here?"],
+    "responses" : ["11:00 AM","checkout time is 11:00 AM"]
+    },
+    {"tag" : "breakfast",
+    "patterns" : ["do you provide breakfast?","any food in the morning"],
+    "responses" : ["Yes, we provide breakfast starting from 8 AM in the morning"]
+    },
+    {"tag" : "peoplesingleroom",
+    "patterns" : ["how many people can stay in a single bed room?"],
+    "responses" : ["Not more than 2","only 2 people are allowed"]
+    },
+    {"tag" : "peopledoubleroom",
+    "patterns" : ["how many people can stay in a double bed room?"],
+    "responses" : ["Not more than 4","only 4 people are allowed"]
+    },
+    {"tag" : "pets",
+    "patterns" : ["do you guys allow pets?","I have a dog","I have a cat"],
+    "responses" : ["Not a problem, we allow pets","we are pet friendly","we allow pets in rooms"]
+    },
+    {"tag" : "petcost",
+    "patterns" : ["do you charge extra for a pet?","do you charge for dogs?","what is the charge for cats?"],
+    "responses" : ["Yes, we charge $20 extra for a pet","It will be $20 extra"]
+    },
+    {"tag" : "booking",
+    "patterns" : ["do you have online booking?","can we book online?","can I pay online?"],
+    "responses" : ["No currently we are not doing any online reservations","We are sorry, currently we don't have online booking"]
+    },
+    {"tag" : "parking",
+    "patterns" : ["parking available for large vehicles?","parking for large trucks"],
+    "responses" : ["Yes, we have parking for large vehicles at corner of the hotel"]
+    },
+    {"tag" : "ATM",
+    "patterns" : ["do you have ATM here?","nearest ATM"],
+    "responses" : ["we don't have ATM here, but there is an ATM down the 53rd exit"]
+    },
+    {"tag" : "Weeklyrate",
+    "patterns" : ["what is the cost for weekly room?"],
+    "responses" : ["we do only double bedrooms for weely. It costs $400 for a week."]
+    }
+]}
